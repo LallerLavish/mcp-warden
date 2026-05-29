@@ -1,0 +1,7 @@
+[package]
+name = "warden-poc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+landlock = "0.4.5"
