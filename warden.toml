@@ -1,2 +1,10 @@
 read = ["/usr", "/etc", "/home/ubuntu/fake-secrets/docs"]
 write = []
+
+
+[tools]
+default = "ask"          # "allow" | "ask" | "block" for unlisted tools
+
+[tools.rules]
+read_project_notes = "ask"
+# delete_file = "block"

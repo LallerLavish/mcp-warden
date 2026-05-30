@@ -10,3 +10,12 @@ read = [
 write = [
   "/home/ubuntu/warden-demo/data",
 ]
+
+[network]
+allow = ["api.open-meteo.com","127.0.0.1"]
+
+[tools]
+default = "ask"
+
+[tools.rules]
+read_project_notes = "ask"

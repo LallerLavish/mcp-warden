@@ -20,3 +20,15 @@ pub fn log_line(log: &Log, direction: &str, line: &str) {
         let _ = f.flush();
     }
 }
+
+pub fn log_event(log: &Log, event: &str, detail: serde_json::Value) {
+    let entry = json!({
+        "ts": Utc::now().to_rfc3339(),
+        "event": event,
+        "detail": detail,
+    });
+    if let Ok(mut f) = log.lock() {
+        let _ = writeln!(f, "{}", entry);
+        let _ = f.flush();
+    }
+}

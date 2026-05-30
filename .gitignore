@@ -10,3 +10,4 @@ inspector-config.json
 *.md
 *.env
 *.json
+*.decisions.json
