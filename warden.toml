@@ -1,0 +1,2 @@
+read = ["/usr", "/etc", "/tmp/warden-allowed"]
+write = []
