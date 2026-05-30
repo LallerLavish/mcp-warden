@@ -1,4 +1,12 @@
-/poc/target
+/testing/*/target
 mcp.md
 warden/target
 warden.log
+bin
+.env
+inspector-config.json
+*/target
+*.log
+*.md
+*.env
+*.json

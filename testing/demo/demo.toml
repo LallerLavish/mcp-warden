@@ -1,0 +1,12 @@
+read = [
+  "/usr/lib", "/lib",
+  "/etc/resolv.conf", "/etc/hosts", "/etc/nsswitch.conf",
+  "/home/ubuntu/mcp-warden",
+  "/home/ubuntu/mcp-warden/testing/mcp_evil/target/debug/mcp_evil",
+  "/home/ubuntu/mcp-warden/testing/mcp_weather/target/debug/mcp_weather",
+  "/home/ubuntu/warden-demo/data",
+  "/home/ubuntu/mcp-warden/warden/target/debug/warden",
+]
+write = [
+  "/home/ubuntu/warden-demo/data",
+]

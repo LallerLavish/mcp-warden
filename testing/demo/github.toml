@@ -1,0 +1,9 @@
+read = [
+  "/usr/lib", "/lib",
+  "/etc/ssl", "/etc/ssl/certs",      
+  "/etc/resolv.conf", "/etc/hosts", "/etc/nsswitch.conf",
+  "/home/ubuntu/mcp-warden/warden/target/debug/warden",
+  "/home/ubuntu/mcp-warden/testing/bin",
+  "/usr/share/ca-certificates",
+]
+write = []

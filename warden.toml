@@ -1,2 +1,2 @@
-read = ["/usr", "/etc", "/tmp/warden-allowed"]
+read = ["/usr", "/etc", "/home/ubuntu/fake-secrets/docs"]
 write = []
